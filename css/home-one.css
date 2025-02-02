@@ -79,3 +79,32 @@ p {
     color: gray;
     margin-left: 5px;
 }
+/*  */
+.off-one{
+    background: url('../images/b.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 238.8px;
+}
+.off-two{
+    background: url('../images/s.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 238.8px;
+}
+.off-three{
+    background: url('../images/f.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 238.8px;
+    
+}
+
+.info .container .row div{
+    background-color: rgb(231, 231, 231);
+    max-width: 306px;
+}
+
+.info .container .row div p{
+    font-size: .9rem;
+}
