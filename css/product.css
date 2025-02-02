@@ -1,0 +1,11 @@
+.product-image { max-width: 400px; }
+.thumbnail { width: 60px; cursor: pointer; }
+.price-range { width: 100%; }
+.category-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.rating-stars { color: #ffc107; }
