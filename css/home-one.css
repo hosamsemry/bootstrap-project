@@ -5,6 +5,9 @@
     height: 100vh;
 }
 
+.landing h1 {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
 .text h1 {
     font-weight: bolder;
     font-size: 3.5rem;
@@ -20,7 +23,7 @@
 
 
 .list-item {
-    min-height: 100px; 
+    min-height: 80px; 
 }
 
 .discount {
@@ -32,4 +35,47 @@
 }
 .percent{
     padding-top: 25px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.card {
+    padding:25px ;
+    border: 1px solid rgb(226, 226, 226);
+    text-align: center;
+}
+.card img {
+    padding: 15px;
+    border-radius: 10px;
+}
+.icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px auto 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 0;
+}
+
+.stars {
+    color: orange;
+}
+.discounted-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
 }
