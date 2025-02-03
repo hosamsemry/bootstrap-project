@@ -113,7 +113,7 @@ p {
     background: url(../images/organic.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
 }
 .organic .text {
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.137);
@@ -126,3 +126,30 @@ p {
     border: 1px solid rgba(253, 97, 136, 0.212);
     
 }
+
+
+
+.macaraoni{
+    background: url(../images/macaraoni.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 474px;
+    margin-bottom: 20px;
+    
+}
+.pizza {
+    background: url(../images/pizza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 474px;
+    margin-bottom: 20px;
+
+}
+.vege {
+    background: url(../images/vege.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 474px;
+    margin-bottom: 20px;   
+}
+
