@@ -1,0 +1,35 @@
+.landing {
+    background: url(../images/firstsec.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text h1 {
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.items-count{
+    font-size: .8rem;
+    color: rgb(102, 102, 102);
+}
+.list div {
+    background-color: rgb(245 245 245);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+
+.list-item {
+    min-height: 100px; 
+}
+
+.discount {
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 55px;
+}
+.percent{
+    padding-top: 25px;
+}
