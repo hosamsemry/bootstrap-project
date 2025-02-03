@@ -99,12 +99,30 @@ p {
     height: 238.8px;
     
 }
-
 .info .container .row div{
     background-color: rgb(231, 231, 231);
-    max-width: 306px;
+    max-width: 300px;
+    margin-bottom: 15px;
 }
 
 .info .container .row div p{
     font-size: .9rem;
+}
+
+.organic {
+    background: url(../images/organic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.organic .text {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.137);
+    padding: 10px;
+    border-radius: 6px;
+    background-color:rgba(243,221,205,255);
+}
+
+.countdown-timer{
+    border: 1px solid rgba(253, 97, 136, 0.212);
+    
 }
