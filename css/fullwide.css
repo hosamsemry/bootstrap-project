@@ -1,0 +1,24 @@
+.product-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.rating-stars {
+    color: #ffc107;
+    font-size: 14px;
+}
+.category-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}

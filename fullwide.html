@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fullwide.css">
+
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="d-flex align-items-center gap-2">
+                <!-- <img src="images/Group.png" alt="Logo" class="rounded"> -->
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        All Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Vegetables</a></li>
+                        <li><a class="dropdown-item" href="#">Fruits</a></li>
+                        <li><a class="dropdown-item" href="#">Bakery</a></li>
+                        <li><a class="dropdown-item" href="#">Snacks</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+                <div class="input-group" style="width: 300px;">
+                    <input type="text" class="form-control" placeholder="Search products...">
+                    <button class="btn btn-outline-secondary" type="button">Search</button>
+                </div>
+                <select class="form-select" style="width: auto;">
+                    <option>Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Best Rating</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Vegetables</span>
+                    <img src="images/lemon.png" class="card-img-top product-image" alt="Lemon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$120.25</span>
+                                <small class="text-decoration-line-through text-muted">$125.99</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Snacks</span>
+                    <img src="images/9.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$145.00</span>
+                                <small class="text-decoration-line-through text-muted">$150.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/apple.png" class="card-img-top product-image" alt="Apple Juice">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$102.25</span>
+                                <small class="text-decoration-line-through text-muted">$115.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/div.cr-image-inner (1).png" class="card-img-top product-image" alt="Watermelon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$85.25</span>
+                                <small class="text-decoration-line-through text-muted">$97.40</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Vegetables</span>
+                    <img src="images/div.cr-image-inner (2).png" class="card-img-top product-image" alt="Lemon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$120.25</span>
+                                <small class="text-decoration-line-through text-muted">$125.99</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Snacks</span>
+                    <img src="images/div.cr-product-image (1).png" class="card-img-top product-image" alt="Hazelnut Pack">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$145.00</span>
+                                <small class="text-decoration-line-through text-muted">$150.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/13.jpg.png" class="card-img-top product-image" alt="Apple Juice">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$102.25</span>
+                                <small class="text-decoration-line-through text-muted">$115.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/div.cr-image-inner (2).png" class="card-img-top product-image" alt="Watermelon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$85.25</span>
+                                <small class="text-decoration-line-through text-muted">$97.40</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Vegetables</span>
+                    <img src="images/11.jpg.png" class="card-img-top product-image" alt="Lemon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$120.25</span>
+                                <small class="text-decoration-line-through text-muted">$125.99</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Snacks</span>
+                    <img src="images/12.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$145.00</span>
+                                <small class="text-decoration-line-through text-muted">$150.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/nuts.png" class="card-img-top product-image" alt="Apple Juice">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$102.25</span>
+                                <small class="text-decoration-line-through text-muted">$115.00</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="images/apple.png" class="card-img-top product-image" alt="Watermelon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                            <small class="text-success">In Stock</small>
+                        </div>
+                        <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$85.25</span>
+                                <small class="text-decoration-line-through text-muted">$97.40</small>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <!-- Pagination -->
+        <nav class="mt-5">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>
