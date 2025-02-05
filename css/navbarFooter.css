@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 #header_logo,
@@ -88,7 +87,6 @@
     color: white;
     padding: 15px 0;
 }
-
 
 
 .navbar-nav li a {
