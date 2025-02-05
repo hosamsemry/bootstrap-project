@@ -1,0 +1,15 @@
+.fa-circle-right {
+    color: red;
+    font-size: large;
+}
+
+
+.pagination li:not(.active-page) a, 
+.pagination li span {
+    color: black;
+}
+
+.active-page a {
+    background-color: red;
+    color: white;
+}
