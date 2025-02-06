@@ -1,16 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-nav {
+    padding: 0px 250px;
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    display: block !important;
+    background-color: #fff !important;
+
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-text i {
+    color: #F53E32;
+    margin-right: 5px;
+}
+
 .social-icon {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    background-color: #f8f9fa;
-    margin-right: 10px;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: transform 0.2s;
 }
+
+
 
 .food-image {
     width: 50px;
@@ -19,6 +64,8 @@
     border-radius: 8px;
     margin-right: 8px;
 }
+
+
 
 .social-icon {
     width: 48px;
@@ -61,6 +108,7 @@
 
 }
 
+
 #header_logo,
 #footer_logo {
     font-family: 'Pacifico', cursive;
@@ -70,9 +118,16 @@
     margin-left: 8%;
 }
 
+
 .search-box {
     max-width: 600px;
     width: 100%;
+}
+
+.search-box button i {
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .search-box input,
@@ -82,6 +137,8 @@
 
 .search-box button {
     border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: red;
 }
 
 .navbar-nav .nav-link {
@@ -89,6 +146,11 @@
     align-items: center;
     gap: 5px;
 }
+
+.navbar-nav .nav-link:hover {
+    color: #F53E32;
+}
+
 
 .checkout-header {
     background-color: #F53E32;
@@ -104,10 +166,7 @@ button {
     color: #000;
 }
 
-.first-nav {
-    padding: 0px 105px;
-    background-color: #fff;
-}
+
 
 #footer-right-img {
     position: absolute;
@@ -132,10 +191,49 @@ button {
     width: 120px;
     height: 60px;
     margin-top: 290px;
-    margin-left: 75%;
+    margin-left: 70%;
+}
+
+
+.div_margin {
+    margin-bottom: 30px;
+}
+
+.form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #fff;
+}
+
+.btn-continue {
+    width: 15%;
+}
+
+#search-input {
+    background: url('images/search.png') no-repeat right 10px center;
+    background-size: 20px;
+    padding-right: 35px;
+    background-color: #fff;
 
 }
 
+#header_logo,
+#footer_logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.food-images {
+    margin-left: 8%;
+}
+
+
+
+button {
+    background-color: #F53E32 !important;
+}
+
+.navbar-nav li a {
+    color: #000;
+}
 
 .main-blog {
     font-family: 'Poppins', sans-serif;
@@ -263,9 +361,6 @@ button {
 
 }
 
-.social-icons {
-    margin-top: -5.5%;
-}
 
 .tag-button {
     border: 1px solid #dee2e6;
