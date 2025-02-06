@@ -124,44 +124,33 @@ button {
     background-color: #fff;
 }
 
+.header-bg-image,
+.header-bg-image1,
+.header-bg-image2 {
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensures it fits within col-4 */
+}
+
+/* Individual background images */
 .header-bg-image {
     background-image: url('../images/banner-1.png'); 
-    background-size: cover;
-    background-position: center;
-    height: 220px;
-    max-width: 367px !important;
-    display: flex;
-    margin-right: 5px;
-    border-radius: 15px;
-
-    /* align-items: center;
-    justify-header-content: center; */
 }
+
 .header-bg-image1 {
     background-image: url('../images/banner-2.png'); 
-    background-size: cover;
-    background-position: center;
-    height: 220px;
-    max-width: 367px !important;
-    display: flex;
-    margin-right: 5px;
-    border-radius: 15px;
-
-    /* align-items: center;
-    justify-header-content: center; */
 }
+
 .header-bg-image2 {
     background-image: url('../images/banner-3.png'); 
-    background-size: cover;
-    background-position: center;
-    height: 220px;
-    max-width: 367px !important;
-    display: flex;
-    margin-right: 5px;
-    border-radius: 15px;
-    /* align-items: center;
-    justify-header-content: center; */
 }
+
+
 .header-content {
     text-align: left;
     padding-left: 30px;
@@ -487,10 +476,13 @@ body {
 .product-card {
     transition: transform 0.2s;
     height: 100%;
+    padding: 15px;
 }
 .product-card:hover {
     transform: translateY(-5px);
 }
+
+
 .badge-custom {
     position: absolute;
     top: 10px;
@@ -784,7 +776,7 @@ body {
     width: 85%;
 }
 .deals-product-price-div {
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 .deals-product-price {
@@ -841,7 +833,6 @@ body {
 }
 .product-item {
     border: 1px solid #eaeaea;
-    padding: 10px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
