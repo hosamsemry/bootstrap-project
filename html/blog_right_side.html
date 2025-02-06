@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Layout</title>
+    <link rel="stylesheet" href="../css/blog_right_side.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="first-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <!-- Left Side (Toggler) -->
+                <nav class="navbar navbar-light bg-white border">
+                    <div class="container-fluid">
+                        <span class="navbar-toggler-icon"></span>
+                    </div>
+                </nav>
+
+                <!-- Centered Navbar Items -->
+                <div class="justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button"
+                                data-bs-toggle="dropdown">Category</a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a class="dropdown-item" href="#">Subcategory 1</a></li>
+                                <li><a class="dropdown-item" href="#">Subcategory 2</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown">Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                                <li><a class="dropdown-item" href="#">Product 2</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown">Elements</a>
+                            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="#">Elements 1</a></li>
+                                <li><a class="dropdown-item" href="#">Elements 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Side (Phone Number) -->
+                <span class="navbar-text me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                      </svg> +123 (456) 7890
+                </span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="first-nav">
+        <!-- Search Bar and User Icons -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="../images/Group.png" alt="FoodTrove" style="height: 40px;">
+                    <span class="ms-2 fw-bold" id="header_logo">FoodTrove</span>
+                </a>
+
+                <!-- Search Box -->
+                <form class="d-flex mx-auto search-box">
+                    <div style="width: 90%;margin-left: 90px;" class="input-group">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <select class="form-select" style="max-width: 150px;">
+                            <option selected>All Categories</option>
+                            <option>Category 1</option>
+                            <option>Category 2</option>
+                        </select>
+                        <button class="btn btn-danger" type="submit">
+                            <i style="color: #fff;" class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- User Actions -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-person"></i> Account
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-heart"></i> Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-cart"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="checkout-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Checkout</h5>
+            <div>
+                <a href="#" class="text-white text-decoration-none">Home</a>
+                <span class="text-white mx-2">-</span>
+                <span class="text-white">Blog Details</span>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container py-5">
+        <div class="row">
+            <!-- Blog Content -->
+            <div class="col-lg-8 main-blog">
+                <img src="../images/blog_right_Side/blog-1.jpg.png" alt="Blog Post" class="post-img mb-4">
+                <div class="mb-3 text-muted">
+                    <span>By Admin</span> / <span>07 Comment</span> / <span>Date - 09 ,09 ,2024</span>
+                </div>
+                <h2 class="mb-4">Health Benefits of a Row Food</h2>
+                <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestias nihil sunt reprehenderit natus, soluta officia iure enim itaque. Iste qui exercitationem et odiat beatae debitis ratione molestiae quia atque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus dolor odio nobis eum voluptatem laudantium magni veritatis sint! Aspernatur est quisquam modi laudantium. Assumenda neque vitae corrupti asperiores.</p>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4 py-4" style="border: 1px solid #E9E9E9; border-radius: 5px;">
+                <!-- Search -->
+                <div class="mb-4">
+                    <form class="input-group">
+                        <input type="text" class="form-control" placeholder="Search here...">
+                        <button style="background-color: #F53E32;" class="btn sidebar-search-btn" type="submit"><i style="color: #fff;" class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- Categories -->
+                <div class="mb-4">
+                    <h5 class="mb-3">Category</h5>
+                    <ul class="category-list">
+                        <li><span>Milks & Dairies</span> <span>( 56 )</span></li>
+                        <li><span>Sea Food</span> <span>( 34 )</span></li>
+                        <li><span>Fresh Fruit</span> <span>( 13 )</span></li>
+                        <li><span>Pet Food</span> <span>( 2 )</span></li>
+                        <li><span>Meat Food</span> <span>( 45 )</span></li>
+                    </ul>
+                </div>
+
+                <!-- Recent Post -->
+                <div class="recent-post">
+                    <h5 class="mb-3">Recent Post</h5>
+                    <div class="card py-3">
+                        <img src="../images/blog_right_Side/1.png" style="width: 94%;margin-left: 3%;" alt="Recent Post" class="card-img-top">
+                        <div class="card-body">
+                            <div class="recent-post-date mb-2">Sep 03, 2023</div>
+                            <h5 class="card-title">10 Tasty Organic Fruits to Choose</h5>
+                            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4 gallery mt-4">
+                    <h5 class="mb-3">Latest Gallery</h5>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini1.png" alt="Gallery Image">
+                        </div>
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini2.png" alt="Gallery Image">
+                        </div>
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini3.png" alt="Gallery Image">
+                        </div>
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini4.png" alt="Gallery Image">
+                        </div>
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini5.png" alt="Gallery Image">
+                        </div>
+                        <div class="col-4">
+                            <img src="../images//blog_right_Side/mini6.png" alt="Gallery Image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Tags -->
+                <div class="popular-tags">
+                    <h5 class="mb-3">Popular Tags</h5>
+                    <span>Vegetables</span>
+                    <span>Juice</span>
+                    <br>
+                    <span>Meat Food</span>
+                    <span>Cabbage</span>
+                    <br>
+                    <span>Organic Food</span>
+                    <span>Juice</span>
+                </div>
+            </div>
+
+    
+            <!-- Blog Cards Section -->
+            <div class="col-lg-8">
+                <div class="row" style="margin-top: -90%;">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="../images/blog_right_Side/blog-2.jpg.png" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title"><img src="../images//blog_right_Side/icons/left-arrow.png"> Lorem ipsum dolor consectetur adipisicing elit. Molestias, dolorum!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="../images/blog_right_Side/blog-3.jpg.png" class="card-img-top" alt="Image 2">
+                            <div class="card-body">
+                                <h5 class="card-title"><img src="../images//blog_right_Side/icons/left-arrow.png"> Lorem ipsum dolor consectetur adipisicing elit. Molestias, dolorum!</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Talk Section -->
+                <div class="talk">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellat earum architecto odit soluta quas odio distinctio quae numquam? Quaerat nulla blanditiis possimus quae.</p>
+                    <p class="talk-author">John Martin <img src="../images//blog_right_Side/icons/talk.png"></p> 
+                    
+                </div>
+
+                <!-- Additional Content -->
+                <div class="content-section row">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia magni explicabo fuga molestiae architecto ipsa excepturi laudantium molestias, assumenda vel fugiat hic exercitationem. Necessitatibus itaque et id!</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container py-4 social-icons-section">
+        <!-- Tags Section -->
+        <div class="d-flex flex-wrap mb-4">
+            <button class="tag-button">Cabbage</button>
+            <button class="tag-button">Appetizer</button>
+            <button class="tag-button">Meat Food</button>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="d-flex justify-content-end social-icons">
+            <i class="facebook"><img src="../images/blog_right_Side/icons/Icon.png"></i>
+            <i class="x"><img src="../images/blog_right_Side/icons/Icon2.png"></i>
+            <i class="instagram"><img src="../images/blog_right_Side/icons/icon3.png"></i>
+            <i class="linkedin"><img src="../images/blog_right_Side/icons/icon4.png"></i>
+        </div>
+    </div>
+        <!-- Pagination -->
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    
+
+
+        <!-- Start Footer -->
+        <footer class="bg-light py-5">
+
+            <div class="container">
+                <img src="../images/__before.png" id="footer-right-img">
+                <img src="../images/__after.png" id="footer-left-img">
+                <img src="../images/__before (1).png" id="footer-center-img">
+    
+                <div class="row g-4">
+                    <!-- Company Info -->
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-left mb-3">
+
+                            <h5 class="mb-0" id="footer_logo"><img src="../images/Group.png"> FoodTrove</h5>
+                        </div>
+                        <p class="text-muted mb-3"> FoodTrove is the biggest market of grocery products. Get your daily
+                            needs from our store.</p>
+                        <div class="mb-3">
+                            <p class="text-muted mb-1">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                <img src="../images/address.png"> 82 street in huntington oaks beach tampa, FL 33626, USA
+                            </p>
+                            <p class="text-muted mb-1">
+                                <i class="fas fa-envelope me-2"></i>
+                                <img src="../images/mail.png"> example@email.com
+                            </p>
+                            <p class="text-muted mb-0">
+                                <i class="fas fa-phone me-2"></i>
+                                <img src="../images/phone.png"> +91 123 4567890
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Company Links -->
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="mb-3">Company</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Delivery Information</a>
+                            </li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Terms & Conditions</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Contact Us</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Support Center</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Category Links -->
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="mb-3">Category</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Dairy & Bakery</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Fruits & Vegetable</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Snack & Spice</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Juice & Drinks</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Chicken & Meat</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Fast Food</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Newsletter -->
+                    <div class="col-lg-4">
+                        <div class="bg-light p-4">
+                            <h6 class="mb-3">Subscribe Our Newsletter</h6>
+                            <div class="input-group mb-4">
+                                <input type="email" class="form-control" id="search-input" placeholder="Search here...">
+    
+    
+                            </div>
+    
+                            <div class="d-flex">
+                                <a href="#" class="social-icon">f</a>
+                                <a href="#" class="social-icon">𝕏</a>
+                                <a href="#" class="social-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="currentColor"
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <svg viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="currentColor"
+                                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+    
+    
+                        <!-- Food Images -->
+                        <div class="d-flex flex-wrap food-images">
+                            <img src="../images/food_1.png" alt="Food 1" class="food-image">
+                            <img src="../images/food_2.png" alt="Food 2" class="food-image">
+                            <img src="../images/food_3.png" alt="Food 3" class="food-image">
+                            <img src="../images/food_4.png" alt="Food 4" class="food-image">
+                            <img src="../images/food_5.png" alt="Food 5" class="food-image">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Copyright -->
+                <div class="border-top mt-5 pt-4 text-center">
+                    <p class="text-muted mb-0">© 2024 <span class="text-danger">FoodTrove</span>. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
