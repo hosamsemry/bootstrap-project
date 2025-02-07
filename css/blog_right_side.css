@@ -226,11 +226,6 @@ button {
 }
 
 
-
-button {
-    background-color: #F53E32 !important;
-}
-
 .navbar-nav li a {
     color: #000;
 }
@@ -407,6 +402,8 @@ button {
 .social-icons i:hover {
     color: #e63946;
 }
+
+
 
 
 
