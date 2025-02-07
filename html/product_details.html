@@ -15,7 +15,162 @@
  
 </head>
 <body>
-    <!-- Header -->
+<!-- header -->
+ <!-- nav layer-one -->
+ <div class="nav-layer-one shadow-sm mb-2 rounded">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+
+            <div class="toggle col-1 d-none d-lg-inline " >
+                <nav class="navbar ">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </div>
+                </nav>
+              </div>
+            <!-- Toggler and Dropdowns (Collapsible for small/medium screens) -->
+            <div class="col-sm-2 col-md-9">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <!-- Toggler Button -->
+                        <button class="navbar-toggler   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Collapsible Content (Dropdowns for Small/Medium Screens) -->
+                        <div class="collapse navbar-collapse" id="navbarToggleContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-dark fw-bold ms-3 mt-sm-1 mt-md-0" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Category
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Products
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Elements
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Phone Number (Always Visible) -->
+            <div class="col-lg-2 d-flex justify-content-end pe-4 d-none d-lg-flex">
+                <i class="bi bi-telephone"></i> +123 (456) (7890)
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- nav layer-two -->
+<div class="nav-layer-two ">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+            <!-- Logo Section -->
+            <div class="col-6 col-md-2 d-flex justify-content-between align-items-center ps-3">
+                <nav class="navbar">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="../images/Group.png" alt="Logo" width="40" height="40">
+                        <span class="ms-2  d-md-inline" style="font-family: 'Pacifico', cursive;">FoodTrove</span>
+                    </a>
+                </nav>
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Search Section -->
+            <div class="col-12 col-md-6 mt-2 mt-md-0">
+                <form class="d-flex search-box">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <select class="form-select" style="max-width: 150px;">
+                            <option selected>All Categories</option>
+                            <option>Category 1</option>
+                            <option>Category 2</option>
+                        </select>
+                        <button class="btn btn-danger" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- User Actions Section -->
+            <div class="col-12 col-md-3 mt-3 mt-md-0">
+                <div class="d-md-flex justify-content-between" id="navbarContent">
+                    <ul class="navbar-nav ms-auto d-flex flex-row justify-content-between">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="bi bi-person pe-1"></i> Account</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="bi bi-heart pe-1"></i> Wishlist</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="bi bi-cart pe-1"></i> Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Header -->
+    <!-- red nav -->
     <nav class="navbar navbar-expand-lg bg-danger text-white">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Product</a>
@@ -27,96 +182,120 @@
 
     <div class="container my-5">
         <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-3">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Product Category</h5>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="juice">
-                                <label class="form-check-label" for="juice">
-                                    Juice & Drinks (20)
-                                </label>
+              <!-- Sidebar -->
+              <div class="col-lg-3 col-md-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 bg-body-tertiary border p-4">
+                            <!-- Product Category Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Product Category</h5>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="juice">
+                                        <label class="form-check-label" for="juice">
+                                            Juice & Drinks
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[20]</small>
+                                </div>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="dairy">
+                                        <label class="form-check-label" for="dairy">
+                                            Dairy & Milk
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[54]</small>
+                                </div>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="snack">
+                                        <label class="form-check-label" for="snack">
+                                            Snack & Spice
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[64]</small>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="dairy">
-                                <label class="form-check-label" for="dairy">
-                                    Dairy & Milk (54)
-                                </label>
+            
+                            <!-- Price Filter Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Filter By Price</h5>
+                                <div class="px-2">
+                                    <input type="range" class="form-range" id="priceRange" min="20" max="250" value="250">
+                                    <div class="d-flex justify-content-between">
+                                        <span>$20</span>
+                                        <span id="priceValue">$250</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-danger w-100 mt-3">Filter</button>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="snack">
-                                <label class="form-check-label" for="snack">
-                                    Snack & Spice (14)
-                                </label>
+            
+                            <!-- Color Category Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Product Category</h5>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="blue">
+                                    <label class="form-check-label ms-2" for="blue">
+                                        Blue <span class="badge bg-primary ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="yellow">
+                                    <label class="form-check-label ms-2" for="yellow">
+                                        Yellow <span class="badge bg-warning ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="red">
+                                    <label class="form-check-label ms-2" for="red">
+                                        Red <span class="badge bg-danger ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="green">
+                                    <label class="form-check-label ms-2" for="green">
+                                        Green <span class="badge bg-success ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-
-                        <h5 class="card-title">Filter by Price</h5>
-                        <div class="mb-3">
-                            <input type="range" class="price-range" min="20" max="250">
-                            <div class="d-flex justify-content-between">
-                                <span>$20</span>
-                                <span>$250</span>
+            
+                            <!-- Weight Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Weight</h5>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="2kg">
+                                    <label class="form-check-label" for="2kg">2kg Pack</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="20kg">
+                                    <label class="form-check-label" for="20kg">20kg Pack</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="30kg">
+                                    <label class="form-check-label" for="30kg">30kg Pack</label>
+                                </div>
                             </div>
-                            <button class="btn btn-danger btn-sm mt-2">Filter</button>
-                        </div>
-
-                        <h5 class="card-title">Colors</h5>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="blue">
-                                <label class="form-check-label" for="blue">
-                                    Blue <span class="category-color bg-primary"></span>
-                                </label>
+            
+                            <!-- Product Tags Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Products Tags</h5>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark border">Vegetables</span>
+                                    <span class="badge bg-light text-dark border">Juice</span>
+                                    <span class="badge bg-light text-dark border">Food</span>
+                                    <span class="badge bg-light text-dark border">Dry Fruits</span>
+                                    <span class="badge bg-light text-dark border">Vegetables</span>
+                                    <span class="badge bg-light text-dark border">Juice</span>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="yellow">
-                                <label class="form-check-label" for="yellow">
-                                    Yellow <span class="category-color bg-warning"></span>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="red">
-                                <label class="form-check-label" for="red">
-                                    Red <span class="category-color bg-danger"></span>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="green">
-                                <label class="form-check-label" for="green">
-                                    Green <span class="category-color bg-success"></span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <h5 class="card-title">Weight</h5>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="2kg">
-                                <label class="form-check-label" for="2kg">2kg Pack</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="20kg">
-                                <label class="form-check-label" for="20kg">20kg Pack</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="25kg">
-                                <label class="form-check-label" for="25kg">25kg Pack</label>
-                            </div>
-                        </div>
-
-                        <h5 class="card-title">Product Tags</h5>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge bg-light text-dark">Vegetables</span>
-                            <span class="badge bg-light text-dark">Juice</span>
-                            <span class="badge bg-light text-dark">Food</span>
-                            <span class="badge bg-light text-dark">Dry Fruits</span>
                         </div>
                     </div>
                 </div>
+            
             </div>
+            <!-- End sidebar -->
 
             <!-- Main Content -->
             <div class="col-md-9">
