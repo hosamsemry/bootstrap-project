@@ -1,6 +1,15 @@
-# bootstrap-project
-https://www.figma.com/community/file/1337097505876062550
-![image](https://github.com/user-attachments/assets/2713614c-42ee-4da9-94eb-ddb30921331e)
-![image](https://github.com/user-attachments/assets/5edafc2c-ae45-4ff5-bb66-4094ad94ca0f)
-![image](https://github.com/user-attachments/assets/02ff87f9-bc1c-4aa1-bfc6-f50508b14045)
-![image](https://github.com/user-attachments/assets/394e9a2e-ad5b-423a-8df6-9a0d80d51beb)
+# FoodTrove 🍽️
+
+FoodTrove is a food-focused website designed to showcase delicious meals, recipes, and culinary experiences. This project is currently under development as part of the ITI (Information Technology Institute) training program, where I am gaining hands-on experience with HTML5, CSS3, and Bootstrap to build a responsive, modern web platform.
+This project is currently under development as part of the ITI (Information Technology Institute) training program.
+
+# Technologies Used 🚀
+
+* **HTML** – Structuring the content  
+* **CSS** – Styling and layout  
+* **Bootstrap** – Responsive design and UI components
+
+# Status 🛠️
+
+* The project is still in progress, and new features are being added.  
+* Stay tuned for updates! 🚀

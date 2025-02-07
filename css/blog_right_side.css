@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-nav {
+    padding: 0px 250px;
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    display: block !important;
+    background-color: #fff !important;
+
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-text i {
+    color: #F53E32;
+    margin-right: 5px;
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: transform 0.2s;
+}
+
+
+
+.food-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+}
+
+.div_margin {
+    margin-bottom: 30px;
+}
+
+.form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #fff;
+}
+
+.btn-continue {
+    width: 15%;
+}
+
+#search-input {
+    background: url('images/search.png') no-repeat right 10px center;
+    background-size: 20px;
+    padding-right: 35px;
+    background-color: #fff;
+
+}
+
+
+#header_logo,
+#footer_logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.food-images {
+    margin-left: 8%;
+}
+
+
+.search-box {
+    max-width: 600px;
+    width: 100%;
+}
+
+.search-box button i {
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.search-box input,
+.search-box select {
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: red;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F53E32;
+}
+
+
+.checkout-header {
+    background-color: #F53E32;
+    color: white;
+    padding: 15px 0;
+}
+
+button {
+    background-color: #F53E32 !important;
+}
+
+.navbar-nav li a {
+    color: #000;
+}
+
+
+
+#footer-right-img {
+    position: absolute;
+    float: right;
+    margin-top: -47px;
+    width: 70px;
+    height: 60px;
+    margin-left: 75%;
+}
+
+#footer-left-img {
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 150px;
+    width: 60px;
+    height: 60px;
+}
+
+#footer-center-img {
+    position: absolute;
+    float: right;
+    width: 120px;
+    height: 60px;
+    margin-top: 290px;
+    margin-left: 70%;
+}
+
+
+.div_margin {
+    margin-bottom: 30px;
+}
+
+.form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #fff;
+}
+
+.btn-continue {
+    width: 15%;
+}
+
+#search-input {
+    background: url('images/search.png') no-repeat right 10px center;
+    background-size: 20px;
+    padding-right: 35px;
+    background-color: #fff;
+
+}
+
+#header_logo,
+#footer_logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.food-images {
+    margin-left: 8%;
+}
+
+
+.navbar-nav li a {
+    color: #000;
+}
+
+.main-blog {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-blog span:first-child{
+    color: #F53E32;
+
+}
+
+.main-blog h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sidebar-search-btn {
+    background-color: #F53E32;
+}
+
+.sidebar-search-btn:hover {
+    background-color: #F53E32;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.category-list li {
+    color: #7A7A7A ;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.recent-post {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}   
+
+.recent-post h5{
+    text-align: left;
+} 
+
+.recent-post img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recent-post-date {
+    color: #F53E32;
+    font-size: 0.9rem;
+
+}
+
+.card-title {
+    font-size: 19px;
+}
+
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.popular-tags span {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+.talk {
+    padding: 20px;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.talk-author {
+    color: #F53E32;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.talk img {
+    width: 35px;
+    float: right;
+}
+
+.content-section {
+    margin-top: 40px;
+}
+
+.social-icons-section {
+    border: 1px solid #E9E9E9;
+    height: 40px !important ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-icons-section button {
+    color: #fff !important;
+}
+
+.facebook, .x, .instagram, .linkedin {
+    border: #E9E9E9 1px solid;
+    width: 25px;
+    border-radius: 5px;
+
+}
+
+
+.tag-button {
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    color: #6c757d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -1.5%;
+    
+}
+
+.tag-button:hover {
+    background-color: #f8f9fa;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #F53E32   ;
+    border: #64B496 1px solid;
+    color: #fff !important;
+}
+
+.page-link {
+    color: #777777 !important;
+}
+
+.page-link:hover {
+    color: #F53E32;
+}
+
+.social-icons i {
+    color: #6c757d;
+    font-size: 18px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.social-icons i img{
+    margin-left: 5px;
+}
+
+.social-icons i:hover {
+    color: #e63946;
+}
+
+
+
+
+

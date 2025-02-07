@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout Page</title>
-    <link rel="stylesheet" href="../css/checkout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Faq</title>
+    <link rel="stylesheet" href="../css/faq.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
 </head>
-
 <body>
-
+ 
 <!-- Start Header -->
- <!-- nav layer-one -->
- <div class="nav-layer-one shadow-sm mb-2 rounded">
+<div class="nav-layer-one shadow-sm mb-2 rounded">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
 
@@ -169,279 +167,122 @@
 </div>
 
 <!-- End Header -->
+    
+
 
     <div class="checkout-header">
         <div class="container d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">Checkout</h5>
+            <h5 class="mb-0">Faq</h5>
             <div>
                 <a href="#" class="text-white text-decoration-none">Home</a>
                 <span class="text-white mx-2">-</span>
-                <span class="text-white">Checkout</span>
+                <span class="text-white">Faq</span>
             </div>
         </div>
     </div>
-<!-- End Header -->
- 
-    <div class="container py-5 mt-5">
-        <div class="row">
-            <!-- Summary Section -->
-            <div class="col-lg-4">
-                <div class="card shadow-sm div_margin">
-                    <div class="card-body">
-                        <h5 class="card-title mb-4">Summary</h5>
+    <!-- End Header -->
+    
 
-                        <div class="d-flex justify-content-between mb-2">
-                            <span class="text-muted">Sub-Total</span>
-                            <span>$80.00</span>
+<div class="container mt-5 mb-5">
+    <div class="row align-items-center">
+        <!-- Image -->
+        <div class="col-md-6">
+            <img src="../images/accordion.png" class="img-fluid rounded" alt="Fresh Vegetables">
+        </div>
+
+        <!-- Accordion -->
+        <div class="col-md-6" >
+            <div class="accordion" id="faqAccordion" style="margin-top: -1%;">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What Facilities Does Your Hotel Have?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi architecto.
                         </div>
-
-                        <div class="d-flex justify-content-between mb-3">
-                            <span class="text-muted">Delivery Charges</span>
-                            <span>$80.00</span>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How Do I Book A Room For My Vacation?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
                         </div>
-
-                        <div class="d-flex justify-content-between border-top pt-3 mb-4">
-                            <strong>Total Amount</strong>
-                            <strong>$80.00</strong>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How We Are Best Among Others?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
                         </div>
-
-                        <!-- Product Items -->
-                        <div class="mb-3">
-                            <div class="d-flex gap-3 div_margin">
-                                <img src="../images/summary_1.png" alt="Dates Value Pack" class="rounded"
-                                    style="width: 80px; height: 80px; object-fit: cover;">
-                                <div class="flex-grow-1">
-                                    <h6 class="mb-1">Dates Value Pack Pouch</h6>
-                                    <img src="../images/rating.png" alt="rating">
-                                    <div class="text-warning mb-2">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <div>
-                                        <span class="text-success fw-bold">$120.25</span>
-                                        <span class="text-muted text-decoration-line-through ms-2">$123.25</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="d-flex gap-3">
-                                <img src="../images/summary_2.png" alt="Smoked Honey Spiced Nuts" class="rounded"
-                                    style="width: 80px; height: 80px; object-fit: cover;">
-                                <div class="flex-grow-1">
-                                    <h6 class="mb-1">Smoked Honey Spiced Nuts</h6>
-                                    <img src="../images/rating.png" alt="rating">
-
-                                    <div class="text-warning mb-2">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <div>
-                                        <span class="text-success fw-bold">$120.25</span>
-                                        <span class="text-muted text-decoration-line-through ms-2">$123.25</span>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Is There Any Fitness Center In Your Hotel?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What Type Of Room Service Do You Offer?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
                         </div>
                     </div>
                 </div>
 
-                <!-- Delivery Method -->
-                <div class="card shadow-sm div_margin">
-                    <div class="card-body">
-                        <h5 class="card-title mb-3">Delivery Method</h5>
-
-                        <p class="text-muted mb-4">
-                            Please select the preferred shipping method to use on this order.
-                        </p>
-
-                        <div class="mb-4">
-                            <div class="d-flex justify-content-between gap-5">
-                                <div class="d-flex flex-column align-items-start">
-                                    <span>Free Shipping</span>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="shippingMethod"
-                                            id="freeShipping" checked>
-                                        <label class="form-check-label" for="freeShipping">Rate - $0.00</label>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-column align-items-start">
-                                    <span>Flat Rate</span>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="shippingMethod"
-                                            id="flatRate">
-                                        <label class="form-check-label" for="flatRate">Rate - $5.00</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="mb-3">
-                            <label for="orderComments" class="form-label">Add Comments About Your Order</label>
-                            <textarea class="form-control" id="orderComments" rows="4"></textarea>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            What Facilities Does Your Hotel Have?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
                         </div>
                     </div>
                 </div>
 
-                <!-- Payment Method -->
-                <div class="card shadow-sm div_margin">
-                    <div class="card-body">
-                        <h5 class="card-title mb-3">Payment Method</h5>
-
-                        <p class="text-muted mb-2" style="font-size: 12px;">
-                            Please select the preferred payment method to use on this order.
-                        </p>
-
-                        <div class="mb-3">
-                            <div class="form-check mb-3">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="cod" checked>
-                                <label class="form-check-label" for="cod">
-                                    Cash On Delivery
-                                </label>
-                            </div>
-
-                            <div class="form-check mb-3">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="upi">
-                                <label class="form-check-label" for="upi">
-                                    UPI
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer">
-                                <label class="form-check-label" for="bankTransfer">
-                                    Bank Transfer
-                                </label>
-                            </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingeven">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            How Do I Book A Room For My Vacation?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingeven" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ad voluptate doloribus eos sunt labore ea enim voluptatem, sequi voluptas rem doloremque architecto.
                         </div>
                     </div>
                 </div>
-
-                <!-- Second Card - Payment Icons -->
-                <div class="card shadow-sm div_margin">
-                    <div class="card-body">
-                        <h5 class="card-title mb-4">Payment Method</h5>
-
-                        <div class="d-flex gap-3 flex-wrap">
-                            <img src="../images/payment.png" alt="Visa" class="img-fluid"
-                                style="height: 40px; object-fit: contain;width: 88%;margin-left: 5px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Customer and Billing Section -->
-            <div class="col-lg-8 ">
-                <div class="container py-3 card shadow-sm ">
-                    <h3 class="fw-bold">New <br> Customer</h3>
-                    <p class="mb-2">Checkout Options</p>
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="checkoutOption" id="register" checked>
-                            <label class="form-check-label" for="register">Register Account</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="checkoutOption" id="guest">
-                            <label class="form-check-label" for="guest">Guest Account</label>
-                        </div>
-                    </div>
-
-                    <p class="mt-2">By creating an account you will be able to shop faster, be up to date on an order's
-                        status, and keep track of the orders you have previously made.</p>
-                    <button class="btn btn-danger btn-continue">Continue</button>
-
-                    <h3 class="fw-bold mt-4">Returning Customer</h3>
-                    <form>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email address">
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
-                        </div>
-                        <button type="submit" class="btn btn-danger">Login</button>
-                        <a href="#" class="ms-3 text-decoration-none fw-bold text-dark">Forgot Password?</a>
-                    </form>
-                </div>
-
-                <div class="container mt-5 card shadow-sm py-3">
-                    <h3 class="fw-bold">Billing Details</h3>
-                    <p>Checkout Options</p>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="checkoutOption" id="existingAddress">
-                        <label class="form-check-label" for="existingAddress">I want to use an existing address</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="checkoutOption" id="newAddress" checked>
-                        <label class="form-check-label" for="newAddress">I want to use a new address</label>
-                    </div>
-
-                    <form class="mt-3">
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="firstName" class="form-label">First Name*</label>
-                                <input type="text" class="form-control" id="firstName"
-                                    placeholder="Enter your first name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="lastName" class="form-label">Last Name*</label>
-                                <input type="text" class="form-control" id="lastName"
-                                    placeholder="Enter your last name">
-                            </div>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="address" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="address" placeholder="Address Line 1">
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="city" class="form-label">City*</label>
-                                <select class="form-select" id="city">
-                                    <option selected>City</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="postcode" class="form-label">Post Code</label>
-                                <input type="text" class="form-control" id="postcode" placeholder="Post Code">
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="country" class="form-label">Country*</label>
-                                <select class="form-select" id="country">
-                                    <option selected>Country</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="region" class="form-label">Region State</label>
-                                <select class="form-select" id="region">
-                                    <option selected>Region/State</option>
-                                </select>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="d-flex justify-content-end mt-3">
-                    <button type="submit" class="btn btn-danger">Place Order</button>
-                </div>
-
-
-
             </div>
         </div>
     </div>
+</div>
 
 
     <!-- Start Footer -->
@@ -551,7 +392,8 @@
         </div>
     </footer>
     <!-- End Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
