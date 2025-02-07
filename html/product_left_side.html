@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Left Side</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fullwide.css">
+    <link rel="stylesheet" href="css/navbarFooter.css">
+</head>
+
+<body class="bg-light">
+<!-- header -->
+ <!-- nav layer-one -->
+ <div class="nav-layer-one shadow-sm mb-2 rounded">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+
+            <div class="toggle col-1 d-none d-lg-inline " >
+                <nav class="navbar ">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </div>
+                </nav>
+              </div>
+            <!-- Toggler and Dropdowns (Collapsible for small/medium screens) -->
+            <div class="col-sm-2 col-md-9">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <!-- Toggler Button -->
+                        <button class="navbar-toggler   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Collapsible Content (Dropdowns for Small/Medium Screens) -->
+                        <div class="collapse navbar-collapse" id="navbarToggleContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-dark fw-bold ms-3 mt-sm-1 mt-md-0" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Category
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Products
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fw-bold ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Elements
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Phone Number (Always Visible) -->
+            <div class="col-lg-2 d-flex justify-content-end pe-4 d-none d-lg-flex">
+                <i class="bi bi-telephone"></i> +123 (456) (7890)
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- nav layer-two -->
+<div class="nav-layer-two ">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+            <!-- Logo Section -->
+            <div class="col-6 col-md-2 d-flex justify-content-between align-items-center ps-3">
+                <nav class="navbar">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="../images/Group.png" alt="Logo" width="40" height="40">
+                        <span class="ms-2  d-md-inline" style="font-family: 'Pacifico', cursive;">FoodTrove</span>
+                    </a>
+                </nav>
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Search Section -->
+            <div class="col-12 col-md-6 mt-2 mt-md-0">
+                <form class="d-flex search-box">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <select class="form-select" style="max-width: 150px;">
+                            <option selected>All Categories</option>
+                            <option>Category 1</option>
+                            <option>Category 2</option>
+                        </select>
+                        <button class="btn btn-danger" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- User Actions Section -->
+            <div class="col-12 col-md-3 mt-3 mt-md-0">
+                <div class="d-md-flex justify-content-between" id="navbarContent">
+                    <ul class="navbar-nav ms-auto d-flex flex-row justify-content-between">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="bi bi-person pe-1"></i> Account</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#"><i class="bi bi-heart pe-1"></i> Wishlist</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="bi bi-cart pe-1"></i> Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Header -->
+
+    <!-- Main Content -->
+    <div class="container-fluid py-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-3 col-md-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 bg-body-tertiary border p-4">
+                            <!-- Product Category Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Product Category</h5>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="juice">
+                                        <label class="form-check-label" for="juice">
+                                            Juice & Drinks
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[20]</small>
+                                </div>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="dairy">
+                                        <label class="form-check-label" for="dairy">
+                                            Dairy & Milk
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[54]</small>
+                                </div>
+                                <div class="form-check d-flex justify-content-between mb-2">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="snack">
+                                        <label class="form-check-label" for="snack">
+                                            Snack & Spice
+                                        </label>
+                                    </div>
+                                    <small class="text-secondary">[64]</small>
+                                </div>
+                            </div>
+            
+                            <!-- Price Filter Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Filter By Price</h5>
+                                <div class="px-2">
+                                    <input type="range" class="form-range" id="priceRange" min="20" max="250" value="250">
+                                    <div class="d-flex justify-content-between">
+                                        <span>$20</span>
+                                        <span id="priceValue">$250</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-danger w-100 mt-3">Filter</button>
+                            </div>
+            
+                            <!-- Color Category Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Product Category</h5>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="blue">
+                                    <label class="form-check-label ms-2" for="blue">
+                                        Blue <span class="badge bg-primary ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="yellow">
+                                    <label class="form-check-label ms-2" for="yellow">
+                                        Yellow <span class="badge bg-warning ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="red">
+                                    <label class="form-check-label ms-2" for="red">
+                                        Red <span class="badge bg-danger ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center mb-2">
+                                    <input class="form-check-input" type="checkbox" id="green">
+                                    <label class="form-check-label ms-2" for="green">
+                                        Green <span class="badge bg-success ms-2">&nbsp;</span>
+                                    </label>
+                                </div>
+                            </div>
+            
+                            <!-- Weight Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Weight</h5>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="2kg">
+                                    <label class="form-check-label" for="2kg">2kg Pack</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="20kg">
+                                    <label class="form-check-label" for="20kg">20kg Pack</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" id="30kg">
+                                    <label class="form-check-label" for="30kg">30kg Pack</label>
+                                </div>
+                            </div>
+            
+                            <!-- Product Tags Section -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Products Tags</h5>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark border">Vegetables</span>
+                                    <span class="badge bg-light text-dark border">Juice</span>
+                                    <span class="badge bg-light text-dark border">Food</span>
+                                    <span class="badge bg-light text-dark border">Dry Fruits</span>
+                                    <span class="badge bg-light text-dark border">Vegetables</span>
+                                    <span class="badge bg-light text-dark border">Juice</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- End sidebar -->
+
+            <!-- Main Content -->
+            <div class="col-lg-9 col-md-8">
+                <!-- Header -->
+                <div class="d-flex justify-content-between align-items-center mb-4 flex-column flex-md-row">
+                    <div class="d-flex align-items-center gap-2 mb-3 mb-md-0">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                All Categories
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Vegetables</a></li>
+                                <li><a class="dropdown-item" href="#">Fruits</a></li>
+                                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                                <li><a class="dropdown-item" href="#">Snacks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center flex-column flex-md-row">
+                        <div class="input-group" style="width: 300px;">
+                            <input type="text" class="form-control" placeholder="Search products...">
+                            <button class="btn btn-outline-secondary" type="button">Search</button>
+                        </div>
+                        <select class="form-select" style="width: auto;">
+                            <option>Featured</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Best Rating</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Vegetables</span>
+                            <img src="../images/lemon.png" class="card-img-top product-image" alt="Lemon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$120.25</span>
+                                        <small class="text-decoration-line-through text-muted">$125.99</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Snacks</span>
+                            <img src="../images/9.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$145.00</span>
+                                        <small class="text-decoration-line-through text-muted">$150.00</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/apple.png" class="card-img-top product-image" alt="Apple Juice">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$102.25</span>
+                                        <small class="text-decoration-line-through text-muted">$115.00</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/div.cr-image-inner (1).png" class="card-img-top product-image" alt="Watermelon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$85.25</span>
+                                        <small class="text-decoration-line-through text-muted">$97.40</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Vegetables</span>
+                            <img src="../images/lemon.png" class="card-img-top product-image" alt="Lemon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$120.25</span>
+                                        <small class="text-decoration-line-through text-muted">$125.99</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Snacks</span>
+                            <img src="../images/9.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$145.00</span>
+                                        <small class="text-decoration-line-through text-muted">$150.00</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/apple.png" class="card-img-top product-image" alt="Apple Juice">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$102.25</span>
+                                        <small class="text-decoration-line-through text-muted">$115.00</small>
+                                    </div>
+                                    <button class="btn btn-outline-primary btn-sm">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/div.cr-image-inner (1).png" class="card-img-top product-image" alt="Watermelon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$85.25</span>
+                                        <small class="text-decoration-line-through text-muted">$97.40</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Vegetables</span>
+                            <img src="../images/lemon.png" class="card-img-top product-image" alt="Lemon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$120.25</span>
+                                        <small class="text-decoration-line-through text-muted">$125.99</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Snacks</span>
+                            <img src="../images/9.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$145.00</span>
+                                        <small class="text-decoration-line-through text-muted">$150.00</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/apple.png" class="card-img-top product-image" alt="Apple Juice">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$102.25</span>
+                                        <small class="text-decoration-line-through text-muted">$115.00</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card product-card">
+                            <span class="category-badge">Fruits</span>
+                            <img src="../images/div.cr-image-inner (1).png" class="card-img-top product-image" alt="Watermelon">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div>
+                                    <small class="text-success">In Stock</small>
+                                </div>
+                                <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="text-danger fw-bold">$85.25</span>
+                                        <small class="text-decoration-line-through text-muted">$97.40</small>
+                                    </div>
+                                    <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Footer -->
+<footer class="bg-light py-5">
+
+    <div class="container">
+    <img src="../images/images-nav-footer/__before.png" id="footer-right-img">
+    <img src="../images/images-nav-footer/__after.png" id="footer-left-img">
+    <img src="../images/images-nav-footer/__before (1).png" id="footer-center-img">
+
+        <div class="row g-4">
+            <!-- Company Info -->
+            <div class="col-lg-4">
+                <div class="d-flex align-items-left mb-3">
+                    <div class="mb-0" id="footer_logo"><img src="../images/images-nav-footer/Group.png" style="width:47px; transform: translate(-10.74px);"> FoodTrove</div>
+                </div>
+                <p class="text-muted mb-3"> FoodTrove is the biggest market of grocery products. Get your daily needs from our store.</p>
+                <div class="mb-3">
+                    <p class="text-muted mb-1">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        <img src="../images/images-nav-footer/address.png"> 82 street in huntington oaks beach tampa, FL 33626, USA
+                    </p>
+                    <p class="text-muted mb-1">
+                        <i class="fas fa-envelope me-2"></i>
+                        <img src="../images/images-nav-footer/mail.png"> example@email.com
+                    </p>
+                    <p class="text-muted mb-0">
+                        <i class="fas fa-phone me-2"></i>
+                        <img src="../images/images-nav-footer/phone.png"> +91 123 4567890
+                    </p>
+                </div>
+            </div>
+
+            <!-- Company Links -->
+            <div class="col-lg-2 col-md-4">
+                <h6 class="mb-3">Company</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Delivery Information</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Terms & Conditions</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Support Center</a></li>
+                </ul>
+            </div>
+
+            <!-- Category Links -->
+            <div class="col-lg-2 col-md-4">
+                <h6 class="mb-3">Category</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Dairy & Bakery</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Fruits & Vegetable</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Snack & Spice</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Juice & Drinks</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Chicken & Meat</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Fast Food</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-4">
+                <div class="bg-light p-4">
+                    <h6 class="mb-3">Subscribe Our Newsletter</h6>
+                    <div class="input-group mb-4">
+                        <input type="email" class="form-control" id="search-input" placeholder="Search here...">
+
+                        
+                    </div>
+                    
+                    <div class="d-flex">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">𝕏</a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Food Images -->
+                <div class="d-flex flex-wrap food-images">
+                    <img src="../images/images-nav-footer/food_1.png" alt="Food 1" class="food-image">
+                    <img src="../images/images-nav-footer/food_2.png" alt="Food 2" class="food-image">
+                    <img src="../images/images-nav-footer/food_3.png" alt="Food 3" class="food-image">
+                    <img src="../images/images-nav-footer/food_4.png" alt="Food 4" class="food-image">
+                    <img src="../images/images-nav-footer/food_5.png" alt="Food 5" class="food-image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-top mt-5 pt-4 text-center">
+            <p class="text-muted mb-0">© 2024 <span class="text-danger">FoodTrove</span>. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<script>
+    // Price range slider functionality
+    const priceRange = document.getElementById('priceRange');
+    const priceValue = document.getElementById('priceValue');
+    
+    priceRange.addEventListener('input', function() {
+        priceValue.textContent = `$${this.value}`;
+    });
+</script>
+</body>
+</html>

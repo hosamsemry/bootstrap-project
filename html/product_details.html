@@ -195,10 +195,10 @@
                 </div>
 
                 <!-- Product Tabs -->
-                <div class="mt-5">
+                <div class="mt-5 ms-5">
                     <ul class="nav nav-tabs" id="productTabs" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#description">Description</button>
+                            <button class="nav-link active text-danger" data-bs-toggle="tab" data-bs-target="#description">Description</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" data-bs-toggle="tab" data-bs-target="#information">Information</button>
@@ -209,20 +209,113 @@
                     </ul>
                     <div class="tab-content p-4 border border-top-0">
                         <div class="tab-pane fade show active" id="description">
-                            <h4>Description</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in vero sapiente odio, eimet dolore vero temporibu.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in vero sapiente odio, amet dolore vero temporibus consectetuer adipisicing elit.</p>
+                            
+                            <h5 class="mt-4">Packaging & Delivery</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in vero sapiente odio, amet dolore vero temporibus consectetuer adipisicing elit.</p>
                         </div>
                         <div class="tab-pane fade" id="information">
-                            <h4>Information</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Product information content here...</p>
                         </div>
                         <div class="tab-pane fade" id="review">
-                            <h4>Reviews</h4>
-                            <p>No reviews yet.</p>
+                            <p>Product reviews will be displayed here...</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row g-4 m-5">
+            <h4 class="text-center mb-4 ms-5">Popular Products</h4>
+            <p class="text-center text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et viverra maecenas accumsan lacus vel facilisis.</p>
+            
+            <!-- Product 1 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Vegetables</span>
+                    <img src="../images/lemon.png" class="card-img-top product-image" alt="Lemon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <!-- <div class="rating-stars">★★★★★ <span class="text-muted">(4.8)</span></div> -->
+                            <!-- <small class="text-success">In Stock</small> -->
+                        </div>
+                        <h5 class="card-title">Fresh organic villa farm lemon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$120.25</span>
+                                <small class="text-decoration-line-through text-muted">$125.99</small>
+                            </div>
+                            <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Snacks</span>
+                    <img src="../images/9.jpg.png" class="card-img-top product-image" alt="Hazelnut Pack">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <!-- <div class="rating-stars">★★★★☆ <span class="text-muted">(4.5)</span></div> -->
+                            <!-- <small class="text-success">In Stock</small> -->
+                        </div>
+                        <h5 class="card-title">Best snacks with hazel nut pack</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$145.00</span>
+                                <small class="text-decoration-line-through text-muted">$150.00</small>
+                            </div>
+                            <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="../images/apple.png" class="card-img-top product-image" alt="Apple Juice">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <!-- <div class="rating-stars">★★★★★ <span class="text-muted">(5.0)</span></div> -->
+                            <!-- <small class="text-success">In Stock</small> -->
+                        </div>
+                        <h5 class="card-title">Fresh organic apple fig simla morning</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$102.25</span>
+                                <!-- <small class="text-decoration-line-through text-muted">$115.00</small> -->
+                            </div>
+                            <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <span class="category-badge">Fruits</span>
+                    <img src="../images/div.cr-image-inner (1).png" class="card-img-top product-image" alt="Watermelon">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <!-- <div class="rating-stars">★★★★☆ <span class="text-muted">(4.2)</span></div> -->
+                            <!-- <small class="text-success">In Stock</small> -->
+                        </div>
+                        <h5 class="card-title">Organic fresh vanilla farm watermelon</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-danger fw-bold">$85.25</span>
+                                <small class="text-decoration-line-through text-muted">$97.40</small>
+                            </div>
+                            <!-- <button class="btn btn-outline-primary btn-sm">Add to Cart</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
