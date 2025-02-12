@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .landing {
-    background: url(../images/firstsec.png);
+    background: url(../images/home-one/firstsec.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -84,19 +84,19 @@ p {
 }
 /*  */
 .off-one{
-    background: url('../images/b.png');
+    background: url('../images/home-one/b.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 238.8px;
 }
 .off-two{
-    background: url('../images/s.png');
+    background: url('../images/home-one/s.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 238.8px;
 }
 .off-three{
-    background: url('../images/f.png');
+    background: url('../images/home-one/f.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 238.8px;
@@ -113,7 +113,7 @@ p {
 }
 
 .organic {
-    background: url(../images/organic.png);
+    background: url(../images/home-one/organic.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 70vh;
@@ -133,7 +133,7 @@ p {
 
 
 .macaraoni{
-    background: url(../images/macaraoni.png);
+    background: url(../images/home-one/macaraoni.png);
     background-position: center;
     background-repeat: no-repeat;
     min-height: 474px;
@@ -141,7 +141,7 @@ p {
     
 }
 .pizza {
-    background: url(../images/pizza.png);
+    background: url(../images/home-one/pizza.png);
     background-position: center;
     background-repeat: no-repeat;
     min-height: 474px;
@@ -149,7 +149,7 @@ p {
 
 }
 .vege {
-    background: url(../images/vege.png);
+    background: url(../images/home-one/vege.png);
     background-position: center;
     background-repeat: no-repeat;
     min-height: 474px;
